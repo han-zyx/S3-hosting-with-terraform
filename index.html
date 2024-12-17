@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My S3 Hosted Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        h1 {
+            font-size: 2.5rem; /* Default for mobile screens */
+        }
+        p {
+            font-size: 1rem;
+        }
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 4rem; /* Larger font for tablets and desktops */
+            }
+            p {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="container vh-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
+        <h1 class="fw-bold mb-3">S3 Bucket Hosted Pages</h1>
+        <p class="lead mb-4">This is a static website hosted on <strong>Amazon S3</strong> using <strong>Terraform</strong>.</p>
+
+        <!-- GitHub Link Button -->
+        <a href="https://github.com/han-zyx/S3-hosting-with-terraform" class="btn btn-primary btn-lg mb-3" target="_blank">
+            View Project on GitHub
+        </a>
+
+        <!-- Decorative Image (Optional) -->
+        <img src="sample.png" alt="Sample Image" class="img-fluid w-25  mt-3" />
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-2 bg-light w-100 position-absolute bottom-0">
+        <small>&copy; 2024 Hansaka Tennakoon | S3 Hosting Demo</small>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
